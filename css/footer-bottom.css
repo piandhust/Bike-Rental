@@ -13,11 +13,11 @@
   background-color: #eeeeee;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
-  height: 30px;
+  height: 20px;
   width: 100%;
   text-align: left;
   font: normal 16px sans-serif;
-  padding: 45px 50px;
+  padding: 30px 30px;
 }
 
 .footer-distributed .footer-left p {

@@ -14,7 +14,7 @@ nav{
     top: 0;
     left: 0;
   /* background: #171c24; */
-  background: black;
+  background: #f26398;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -46,7 +46,7 @@ nav .nav-items li a{
 }
 nav .nav-items li a:hover,
 nav .nav-items li a.active{
-  color: #ff0000;
+  color: #000000;
 }
 
 nav form{
@@ -233,6 +233,7 @@ nav .logo.space{
     font-size: 16px;
   }
 }
+
 @media (max-width: 350px){
   nav .menu-icon,
   nav .cancel-icon,
@@ -244,7 +245,26 @@ nav .logo.space{
     margin-right: 0px;
     font-size: 16px;
   }
- nav .logo{
+  nav .logo{
+    font-size: 22.8px;
+  }
+  nav .logo{
+    display: none;
+  }
+}
+
+@media (max-width: 350px){
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav .search-icon{
+    margin: 0 10px;
+    font-size: 16px;
+  }
+   .login{
+    margin-right: 0px;
+    font-size: 16px;
+  }
+  nav .logo{
     font-size: 22.8px;
   }
 }
