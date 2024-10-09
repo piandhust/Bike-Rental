@@ -3,11 +3,9 @@
 
 .wrapper{
   position: relative;
-    min-height: 180vh;
+    min-height: 100vh;
     background:url("bike rental/bckgrdbike.jpg");
     background-attachment: fixed;
-    
-   
 }
 .wrapper::before{
     content: "";
