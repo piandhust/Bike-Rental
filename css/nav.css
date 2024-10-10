@@ -125,6 +125,18 @@ nav .search-icon{
   height: 28px;
 }
 
+.social-icons-nav .threads{
+  margin-top: 5px;
+  width: 27px;
+  height: 30px;
+}
+
+.social-icons-nav .ig{
+  margin-top: 5px;
+  width: 27px;
+  height: 30px;
+}
+
 .social-icons-nav a:hover {
   color: #A63F52; 
 }

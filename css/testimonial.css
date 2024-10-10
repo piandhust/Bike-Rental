@@ -128,6 +128,9 @@
     /* line-height: 20px; */
     padding: 10.6px;
   }
+  .wrapper{
+    min-height: 80vh;
+  }
 }
 
 @media (max-width:723px) {
@@ -143,6 +146,9 @@
 
   .testimonial .item .content3 {
     font-size: 16px;
+  }
+  .wrapper{
+    min-height: 140vh;
   }
 }
 

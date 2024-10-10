@@ -148,17 +148,17 @@ img{
         font-size: 1em;
     }
     .section2 > p{
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
 }
 @media (max-width: 390px){
      .section2 h2{
-        font-size:1em;
+        font-size:1.2em;
     }
     .section2 h3{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .section2 > p{
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
 }
