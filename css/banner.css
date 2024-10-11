@@ -1,7 +1,7 @@
 .banner {
     position: relative;
     width: 100%;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -61,7 +61,7 @@
     /* position: absolute;
     top: 0;
     left: 0; */
-    height: fit-content;
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
@@ -78,13 +78,13 @@
     }
 
     .fitbg {
-        object-fit: contain;
+        object-fit: cover;
     }
 }
 
 @media(max-width: 787px) {
     .banner {
-        min-height: 70vh;
+        /* min-height: 70vh; */
         justify-content: center;
         padding: 0;
     }
@@ -115,7 +115,7 @@
 
 @media(max-width: 567px) {
     .banner {
-        min-height: 60vh;
+        /* min-height: 60vh; */
         justify-content: center;
         padding: 0;
     }
@@ -123,14 +123,14 @@
 
 @media(max-width: 467px) {
     .banner {
-        min-height: 50vh;
+        /* min-height: 50vh; */
         justify-content: center;
         padding: 0;
     }
 }
 @media(max-width: 466px) {
     .banner {
-        min-height: 30vh; 
+        /* min-height: 30vh;  */
         font-size: 14px;
         padding: 0; 
     }
