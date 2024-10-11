@@ -4,7 +4,7 @@
 .wrapper {
   position: relative;
   min-height: 80vh;
-  background: url("bike rental/bckgrdbike.jpg");
+  /* background: url("bike rental/bckgrdbike.jpg"); */
   background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.801);
 }
@@ -127,7 +127,7 @@
     padding: 10.6px;
   }
   .wrapper{
-    min-height: 50vh;
+    min-height: 150vh;
   }
 }
 
@@ -147,6 +147,9 @@
   }
   .wrapper{
     min-height: 150vh;
+  }
+  .testimonial {
+    min-height: 180vh;
   }
 }
 
