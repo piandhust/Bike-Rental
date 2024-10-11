@@ -146,6 +146,25 @@
     font-size: 16px;
   }
   .wrapper{
+    min-height: 150vh;
+  }
+}
+
+@media (max-width:512px) {
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .testimonial .item {
+    width: 85%;
+    margin: 50px 50px 50px;
+    height: 250px;
+  }
+
+  .testimonial .item .content3 {
+    font-size: 16px;
+  }
+  .wrapper{
     min-height: 130vh;
   }
 }
